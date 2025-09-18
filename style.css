@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    object-position: center center;
+    background:#000000;
+}
+
+#home {
+    color: white;
+}
+#copyright{
+    color: white;
+}
+@keyframes animate {
+    to {
+        background-position: 200%;
+    }
+}
+
+#msW{
+    text-align: center;
+    background-image: url("ca548979494f076d1e6f6ede6933b685.png");
+    background-clip: text;
+    color: transparent;
+}
+
+.card{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+#buy1{
+    color: white;
+    border: 50px;
+    text-shadow: 50px;
+    border-color: black;
+    background-color: red;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+}
+
+#buy2{
+    color: white;
+    text-shadow: 50px;
+    border: 50px;
+    border-color: black;
+    background-color: red;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+}
+
+.container:hover>:not(:hover) {
+    opacity: 0.3;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
